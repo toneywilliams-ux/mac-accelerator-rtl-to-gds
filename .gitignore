@@ -1,0 +1,36 @@
+# Simulation outputs
+*.vcd
+*.fst
+*.vvp
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# EDA generated outputs
+*.o
+*.jou
+*.wlf
+*.fsdb
+
+# Physical design outputs
+results/
+reports/
+logs/
+objects/
+*.gds
+*.oas
+*.def
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
