@@ -1,8 +1,9 @@
+
 # Simulation outputs
 *.vcd
 *.fst
 *.vvp
-*.log
+*.out
 
 # Temporary files
 *.tmp
@@ -21,11 +22,31 @@ __pycache__/
 *.wlf
 *.fsdb
 
-# Physical design outputs
-results/
-reports/
-logs/
-objects/
+# ORFS temporary workspace
+/orfs_workspace/
+
+# Physical design intermediate and final outputs
+results/*
+!results/synthesis/
+results/synthesis/*
+!results/synthesis/reports/
+!results/synthesis/logs/
+results/synthesis/reports/*
+results/synthesis/logs/*
+!results/synthesis/reports/conventional/
+!results/synthesis/reports/pipelined/
+!results/synthesis/logs/conventional/
+!results/synthesis/logs/pipelined/
+results/synthesis/reports/conventional/*
+results/synthesis/reports/pipelined/*
+results/synthesis/logs/conventional/*
+results/synthesis/logs/pipelined/*
+!results/synthesis/reports/conventional/*.txt
+!results/synthesis/reports/pipelined/*.txt
+!results/synthesis/logs/conventional/*.log
+!results/synthesis/logs/pipelined/*.log
+
+# Other generated physical-design files
 *.gds
 *.oas
 *.def

@@ -1,0 +1,30 @@
+Yosys 0.68+post (git sha1 UNKNOWN, Release, GNU /usr/local/bin/wrapped-cc/g++ 15.2.0)
+Using ABC speed script.
+1. Executing Liberty frontend: /OpenROAD-flow-scripts/flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+2. Executing Liberty frontend: /OpenROAD-flow-scripts/flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+3. Executing Verilog-2005 frontend: /project/rtl/multiplier/csa_3to2_32bit.v
+4. Executing Verilog-2005 frontend: /project/rtl/multiplier/final_cpa_32bit.v
+5. Executing Verilog-2005 frontend: /project/rtl/multiplier/booth_multiplier_16bit.v
+6. Executing Verilog-2005 frontend: /project/rtl/mac/mac_16bit.v
+7. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/platforms/sky130hd/cells_clkgate_hd.v
+8. Executing HIERARCHY pass (managing design hierarchy).
+9. Executing AST frontend in derive mode using pre-parsed AST for module `\mac_16bit'.
+9.1. Analyzing design hierarchy..
+9.2. Executing AST frontend in derive mode using pre-parsed AST for module `\booth_multiplier_16bit'.
+9.3. Analyzing design hierarchy..
+9.4. Executing AST frontend in derive mode using pre-parsed AST for module `\final_cpa_32bit'.
+9.5. Executing AST frontend in derive mode using pre-parsed AST for module `\csa_3to2_32bit'.
+9.6. Analyzing design hierarchy..
+9.7. Analyzing design hierarchy..
+10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Warning: Ignoring module mac_16bit because it contains processes (run 'proc' command first).
+Warning: Ignoring module booth_multiplier_16bit because it contains processes (run 'proc' command first).
+11. Executing RTLIL backend.
+Warnings: 2 unique messages, 2 total
+End of script. Logfile hash: d0b1e4b0df, time: 0.20s, user: 0.08s, system: 0.04s, MEM: 53.88 MB peak
+Yosys 0.68+post (git sha1 UNKNOWN, Release, GNU /usr/local/bin/wrapped-cc/g++ 15.2.0)
+Time spent: 79% 4x read_liberty (0 sec), 8% 2x write_rtlil (0 sec), ...
+Elapsed time: 0:00.21[h:]min:sec. CPU time: user 0.13 sys 0.05 (85%). Peak memory: 59520KB.
+Log                    Ext     Elapsed      CPU     CPU/ Peak Mem sha1sum
+                                     s        s  Elapsed       MB [0:10)
+1_1_yosys_canonicalize .rtlil        0        0     0.86       58 37bb2858bc
