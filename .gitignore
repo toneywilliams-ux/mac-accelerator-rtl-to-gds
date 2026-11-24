@@ -55,3 +55,31 @@ results/synthesis/logs/pipelined/*
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Floorplan reports, metrics and logs
+!results/floorplan/
+results/floorplan/*
+!results/floorplan/conventional/
+results/floorplan/conventional/*
+!results/floorplan/conventional/reports/
+!results/floorplan/conventional/metrics/
+!results/floorplan/conventional/logs/
+results/floorplan/conventional/reports/*
+results/floorplan/conventional/metrics/*
+results/floorplan/conventional/logs/*
+!results/floorplan/conventional/reports/*.rpt
+!results/floorplan/conventional/metrics/*.json
+!results/floorplan/conventional/logs/*.log
+
+# Pipelined floorplan archive
+!results/floorplan/pipelined/
+results/floorplan/pipelined/*
+!results/floorplan/pipelined/reports/
+!results/floorplan/pipelined/metrics/
+!results/floorplan/pipelined/logs/
+results/floorplan/pipelined/reports/*
+results/floorplan/pipelined/metrics/*
+results/floorplan/pipelined/logs/*
+!results/floorplan/pipelined/reports/*.rpt
+!results/floorplan/pipelined/metrics/*.json
+!results/floorplan/pipelined/logs/*.log
