@@ -113,3 +113,33 @@ results/placement/pipelined/logs/*
 !results/placement/pipelined/reports/*.rpt
 !results/placement/pipelined/metrics/*.json
 !results/placement/pipelined/logs/*.log
+
+# CTS reports, metrics and logs
+!results/cts/
+results/cts/*
+!results/cts/conventional/
+!results/cts/pipelined/
+
+# Conventional CTS archive
+results/cts/conventional/*
+!results/cts/conventional/reports/
+!results/cts/conventional/metrics/
+!results/cts/conventional/logs/
+results/cts/conventional/reports/*
+results/cts/conventional/metrics/*
+results/cts/conventional/logs/*
+!results/cts/conventional/reports/*.rpt
+!results/cts/conventional/metrics/*.json
+!results/cts/conventional/logs/*.log
+
+# Pipelined CTS archive
+results/cts/pipelined/*
+!results/cts/pipelined/reports/
+!results/cts/pipelined/metrics/
+!results/cts/pipelined/logs/
+results/cts/pipelined/reports/*
+results/cts/pipelined/metrics/*
+results/cts/pipelined/logs/*
+!results/cts/pipelined/reports/*.rpt
+!results/cts/pipelined/metrics/*.json
+!results/cts/pipelined/logs/*.log
