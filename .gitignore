@@ -143,3 +143,34 @@ results/cts/pipelined/logs/*
 !results/cts/pipelined/reports/*.rpt
 !results/cts/pipelined/metrics/*.json
 !results/cts/pipelined/logs/*.log
+
+# Global and detailed routing reports, metrics and logs
+!results/routing/
+results/routing/*
+!results/routing/README.md
+!results/routing/conventional/
+!results/routing/pipelined/
+
+# Conventional routing archive
+results/routing/conventional/*
+!results/routing/conventional/reports/
+!results/routing/conventional/metrics/
+!results/routing/conventional/logs/
+results/routing/conventional/reports/*
+results/routing/conventional/metrics/*
+results/routing/conventional/logs/*
+!results/routing/conventional/reports/*.rpt
+!results/routing/conventional/metrics/*.json
+!results/routing/conventional/logs/*.log
+
+# Pipelined routing archive
+results/routing/pipelined/*
+!results/routing/pipelined/reports/
+!results/routing/pipelined/metrics/
+!results/routing/pipelined/logs/
+results/routing/pipelined/reports/*
+results/routing/pipelined/metrics/*
+results/routing/pipelined/logs/*
+!results/routing/pipelined/reports/*.rpt
+!results/routing/pipelined/metrics/*.json
+!results/routing/pipelined/logs/*.log
