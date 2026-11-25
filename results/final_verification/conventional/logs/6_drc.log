@@ -1,0 +1,7 @@
+Reading /work/results/sky130hd/mac_16bit/base/6_final.gds ..
+    0.1s DRC section
+    0.1s BEOL section
+   12.3s OFFGRID-ANGLES section
+   12.7s Writing report database: /work/reports/sky130hd/mac_16bit/base/6_drc.lyrdb ..
+   12.7s Total violations: 0
+Elapsed time: 0:12.90[h:]min:sec. CPU time: user 16.64 sys 0.47 (132%). Peak memory: 340860KB.

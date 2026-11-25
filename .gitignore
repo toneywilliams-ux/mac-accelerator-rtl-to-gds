@@ -174,3 +174,35 @@ results/routing/pipelined/logs/*
 !results/routing/pipelined/reports/*.rpt
 !results/routing/pipelined/metrics/*.json
 !results/routing/pipelined/logs/*.log
+
+# Final verification: timing, DRC, LVS and LEC evidence
+!results/final_verification/
+results/final_verification/*
+!results/final_verification/conventional/
+!results/final_verification/pipelined/
+
+# Conventional final verification archive
+results/final_verification/conventional/*
+!results/final_verification/conventional/reports/
+!results/final_verification/conventional/metrics/
+!results/final_verification/conventional/logs/
+results/final_verification/conventional/reports/*
+results/final_verification/conventional/metrics/*
+results/final_verification/conventional/logs/*
+!results/final_verification/conventional/reports/*.rpt
+!results/final_verification/conventional/reports/*.lyrdb
+!results/final_verification/conventional/metrics/*.json
+!results/final_verification/conventional/logs/*.log
+
+# Pipelined final verification archive
+results/final_verification/pipelined/*
+!results/final_verification/pipelined/reports/
+!results/final_verification/pipelined/metrics/
+!results/final_verification/pipelined/logs/
+results/final_verification/pipelined/reports/*
+results/final_verification/pipelined/metrics/*
+results/final_verification/pipelined/logs/*
+!results/final_verification/pipelined/reports/*.rpt
+!results/final_verification/pipelined/reports/*.lyrdb
+!results/final_verification/pipelined/metrics/*.json
+!results/final_verification/pipelined/logs/*.log

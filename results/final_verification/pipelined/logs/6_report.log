@@ -1,0 +1,72 @@
+OpenROAD unknown 
+Features included (+) or not (-): -GPU +GUI
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 8 thread(s).
+read_liberty /work/objects/binary_libs/sky130hd/sky130_fd_sc_hd__tt_025C_1v80@12800135-1795469365-ed1652ed.blib
+read_db /work/results/sky130hd/mac_16bit_pipelined/base/6_1_fill.odb
+read_sdc /work/results/sky130hd/mac_16bit_pipelined/base/6_1_fill.sdc
+source /OpenROAD-flow-scripts/flow/platforms/sky130hd/setRC.tcl
+[WARNING STA-0450] virtual clock vclk_core_clock can not be propagated.
+write_sdc -no_timestamp /work/results/sky130hd/mac_16bit_pipelined/base/6_final.sdc
+write_db /work/results/sky130hd/mac_16bit_pipelined/base/6_final.odb
+Deleted 0 routing obstructions
+Warning: master sky130_ef_sc_hd__decap_12 has signal pins but no liberty cell
+Warning: master sky130_ef_sc_hd__decap_12 has signal pins but no liberty cell
+Elapsed time: 0:00.38[h:]min:sec. CPU time: user 0.28 sys 0.07 (93%). Peak memory: 30944KB.
+Global output passed lec test
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /OpenROAD-flow-scripts/flow/platforms/sky130hd/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation mac_16bit_pipelined (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 9539 rc segments
+[INFO RCX-0439] Coupling Cap extraction mac_16bit_pipelined ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 53% of 18459 wires extracted
+[INFO RCX-0442] 100% of 18459 wires extracted
+[INFO RCX-0045] Extract 2466 nets, 12004 rsegs, 12004 caps, 20776 ccs
+[INFO RCX-0443] 2466 nets finished
+[INFO PSM-0040] All shapes on net VDD are connected.
+########## IR report #################
+Net              : VDD
+Corner           : default
+Total power      : 3.44e-04 W
+Supply voltage   : 1.80e+00 V
+Worstcase voltage: 1.80e+00 V
+Average voltage  : 1.80e+00 V
+Average IR drop  : 1.84e-06 V
+Worstcase IR drop: 1.69e-05 V
+Percentage drop  : 0.00 %
+######################################
+[INFO PSM-0040] All shapes on net VSS are connected.
+########## IR report #################
+Net              : VSS
+Corner           : default
+Total power      : 3.44e-04 W
+Supply voltage   : 0.00e+00 V
+Worstcase voltage: 2.11e-05 V
+Average voltage  : 1.53e-06 V
+Average IR drop  : 1.53e-06 V
+Worstcase IR drop: 2.11e-05 V
+Percentage drop  : 0.00 %
+######################################
+Cell type report:                       Count       Area
+  Fill cell                              4196   23866.64
+  Tap cell                                539     674.40
+  Clock buffer                             11     242.73
+  Timing Repair Buffer                    165     872.09
+  Inverter                                 37     138.88
+  Clock inverter                            4      51.30
+  Sequential cell                          97    1941.86
+  Multi-Input combinational cell         1879   14158.58
+  Total                                  6928   41946.48
+Report metrics stage 6, finish...
+
+==========================================================================
+finish report_design_area
+--------------------------------------------------------------------------
+Design area 18080 um^2 43% utilization.
+Elapsed time: 0:03.89[h:]min:sec. CPU time: user 2.85 sys 1.31 (106%). Peak memory: 210160KB.
+Log                    Ext     Elapsed      CPU     CPU/ Peak Mem sha1sum
+                                     s        s  Elapsed       MB [0:10)
+6_report                             0        0     0.92       30 N/A

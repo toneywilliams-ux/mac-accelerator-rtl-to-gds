@@ -1,0 +1,67 @@
+[2026-11-24 23:49:17.581] [miter_logger] [info] MiterStrategy::run starting
+[2026-11-24 23:49:17.581] [miter_logger] [info] Collecting POs for design 0: mac_16bit
+
+[2026-11-24 23:49:17.589] [miter_logger] [info] Collected 99 PIs for design 0
+
+[2026-11-24 23:49:17.589] [miter_logger] [info] Collected 192 POs for design 0
+
+[2026-11-24 23:49:17.589] [miter_logger] [info] design 0 PI summary by model/term (99 total terminals, 6 unique rows):
+| Model                    | Term   | Count |
+|--------------------------|--------|-------|
+| sky130_fd_sc_hd__dfxtp_1 | Q      |    64 |
+| mac_16bit                | M      |    16 |
+| mac_16bit                | Q      |    16 |
+| mac_16bit                | clk    |     1 |
+| mac_16bit                | enable |     1 |
+| mac_16bit                | reset  |     1 |
+
+[2026-11-24 23:49:17.589] [miter_logger] [info] design 0 PO summary by model/term (192 total terminals, 3 unique rows):
+| Model                    | Term | Count |
+|--------------------------|------|-------|
+| mac_16bit                | ACC  |    64 |
+| sky130_fd_sc_hd__dfxtp_1 | CLK  |    64 |
+| sky130_fd_sc_hd__dfxtp_1 | D    |    64 |
+
+[2026-11-24 23:49:17.589] [miter_logger] [info] Collecting POs for design 1: mac_16bit
+
+[2026-11-24 23:49:17.595] [miter_logger] [info] size of common inputs: 99
+[2026-11-24 23:49:17.595] [miter_logger] [info] size of diff0 inputs: 0
+[2026-11-24 23:49:17.595] [miter_logger] [info] size of diff1 inputs: 0
+[2026-11-24 23:49:17.595] [miter_logger] [info] Collected 99 PIs for design 1
+
+[2026-11-24 23:49:17.595] [miter_logger] [info] Collected 192 POs for design 1
+
+[2026-11-24 23:49:17.595] [miter_logger] [info] design 1 PI summary by model/term (99 total terminals, 6 unique rows):
+| Model                    | Term   | Count |
+|--------------------------|--------|-------|
+| sky130_fd_sc_hd__dfxtp_1 | Q      |    64 |
+| mac_16bit                | M      |    16 |
+| mac_16bit                | Q      |    16 |
+| mac_16bit                | clk    |     1 |
+| mac_16bit                | enable |     1 |
+| mac_16bit                | reset  |     1 |
+
+[2026-11-24 23:49:17.595] [miter_logger] [info] design 1 PO summary by model/term (192 total terminals, 3 unique rows):
+| Model                    | Term | Count |
+|--------------------------|------|-------|
+| mac_16bit                | ACC  |    64 |
+| sky130_fd_sc_hd__dfxtp_1 | CLK  |    64 |
+| sky130_fd_sc_hd__dfxtp_1 | D    |    64 |
+
+[2026-11-24 23:49:17.595] [miter_logger] [info] normalizeInputs: starting
+[2026-11-24 23:49:17.595] [miter_logger] [info] size of common inputs: 99
+[2026-11-24 23:49:17.595] [miter_logger] [info] size of diff0 inputs: 0
+[2026-11-24 23:49:17.595] [miter_logger] [info] size of diff1 inputs: 0
+[2026-11-24 23:49:17.595] [miter_logger] [info] normalizeOutputs: starting
+[2026-11-24 23:49:17.595] [miter_logger] [info] size of common outputs: 192
+[2026-11-24 23:49:17.595] [miter_logger] [info] size of diff0 outputs: 0
+[2026-11-24 23:49:17.595] [miter_logger] [info] size of diff1 outputs: 0
+[2026-11-24 23:49:17.595] [miter_logger] [info] size of PIs in circuit 0: 99
+[2026-11-24 23:49:17.595] [miter_logger] [info] size of PIs in circuit 1: 99
+[2026-11-24 23:49:17.595] [miter_logger] [info] size of POs in circuit 0: 192
+[2026-11-24 23:49:17.595] [miter_logger] [info] size of POs in circuit 1: 192
+[2026-11-24 23:49:17.625] [miter_logger] [info] Building miter expression
+[2026-11-24 23:49:17.625] [miter_logger] [info] Finished building miter expression
+[2026-11-24 23:49:17.627] [miter_logger] [info] Starting solver
+[2026-11-24 23:49:17.627] [miter_logger] [info] SAT solver finished: UNSAT
+[2026-11-24 23:49:17.627] [miter_logger] [info] Circuits are IDENTICAL
